@@ -1,0 +1,13 @@
+
+
+export const STATISTICS_SELECT_TIME_IMAGE_WIDTH = "20vp"
+export const STATISTICS_SELECT_TIME_HEIGHT = "30vp"
+
+export const STATISTICS_FONT_COLOR_SELECTED = Color.White
+export const STATISTICS_FONT_COLOR_NORMAL = "#ffe9e9e9"
+
+export const STATISTICS_BACKGROUND_PAY = "#ff24a915"
+export const STATISTICS_BACKGROUND_EARN = "#ffe3be05"
+
+export const STATISTICS_INFO_HEIGHT = "40%"
+export const STATISTICS_RANK_HEIGHT = "60%"

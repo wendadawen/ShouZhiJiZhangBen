@@ -1,0 +1,70 @@
+
+import { TabItemBean } from '../bean/TabItemBean';
+
+export const TAB_BAR_DETAIL: TabItemBean = {
+  imageNormal: $rawfile("tab_bar_detail_normal.png"),
+  imageActivated: $rawfile("tab_bar_detail_activated.png"),
+  title: "明细"
+}
+export const TAB_BAR_STATISTICS: TabItemBean = {
+  imageNormal: $rawfile("tab_bar_statistics_normal.png"),
+  imageActivated: $rawfile("tab_bar_statistics_activated.png"),
+  title: "统计"
+}
+export const TAB_BAR_BACKGROUND = "#F1F3F5"
+
+export const TAB_WIDTH = "100%";
+export const TAB_HEIGHT = "56vp";
+
+export const TAB_IMAGE_WIDTH = "24vp";
+export const TAB_IMAGE_HEIGHT = "24vp";
+
+export const TAB_TEXT_WIDTH = "24vp";
+export const TAB_TEXT_HEIGHT = "24vp";
+export const TAB_TEXT_MARGIN_TOP = "4vp";
+export const TAB_TEXT_FONT_SIZE = "10fp";
+export const TAB_TEXT_FONT_COLOR_ACTIVATED = "#007DFF";
+export const TAB_TEXT_FONT_COLOR_NORMAL = "#182431";
+
+export const TAB_CONTENT_SELECT_CATEGORY_WIDTH = "150vp"
+export const TAB_CONTENT_SELECT_CATEGORY_TEXT_WIDTH = "65%"
+export const TAB_CONTENT_SELECT_CATEGORY_TEXT_FONT_SIZE = "16fp"
+export const TAB_CONTENT_SELECT_CATEGORY_IMAGE_WIDTH = "35%"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_PADDING = "12vp"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_MARGIN = "12vp"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_HEIGHT= "70%"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_BACKGROUND= "#F1F3F5"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_DELETEIMAGE_WIDTH = "24vp"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_TITLE = "请选择类型"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_TITLE_HEIGHT = "30vp"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_LANES = 3
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_PAYNAME = "支出"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_EARNNAME = "收入"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_HEAD_BACKGROUND = "#99182431"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_SIGNAL_BACKGROUND_COLOR_ACTIVATED = "#ff1a9102"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_SIGNAL_BACKGROUND_COLOR_NORMAL = Color.White
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_SIGNAL_FONT_COLOR_ACTIVATED = Color.White
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_SIGNAL_FONT_COLOR_NORMAL = Color.Black
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_SIGNAL_WIDTH = "33%"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_SIGNAL_HEIGHT = "40vp"
+export const TAB_CONTENT_SELECT_CATEGORY_DIALOG_SIGNAL_PADDING = "2vp"
+export const TAB_CONTENT_SELECT_CATEGORY_ALL = "全部类型"
+export const TAB_CONTENT_SELECT_TIME_IMAGE_WIDTH = "20vp"
+export const TAB_CONTENT_SELECT_BACKGROUND = "#F1F3F5"
+export const TAB_CONTENT_SELECT_HEIGHT = "30vp"
+
+export const TAB_CONTENT_TITLE_FONT_COLOR = "#FF000000"
+export const TAB_CONTENT_TITLE_FONT_SIZE = "30fp"
+export const TAB_CONTENT_TITLE_HEIGHT = "56vp"
+export const TAB_CONTENT_TITLE = "记账本"
+
+export const TAB_CONTENT_SEARCH_PLACEHOLDER = "搜索内容..."
+export const TAB_CONTENT_SEARCH_PLACEHOLDER_COLOR = "#99182431"
+export const TAB_CONTENT_SEARCH_PLACEHOLDER_FONT_SIZE = "16vp"
+export const TAB_CONTENT_SEARCH_PLACEHOLDER_FONT_WEIGHT = "10"
+export const TAB_CONTENT_SEARCH_HEIGHT = "40vp"
+export const TAB_CONTENT_SEARCH_BORDER_RADIUS = "20vp"
+export const TAB_CONTENT_SEARCH_TEXT_FONT_SIZE = "26fp"
+export const TAB_CONTENT_SEARCH_MARGIN_BOTTOM = "8vp"
+export const TAB_CONTENT_SEARCH_BUTTON_TEXT = "搜索"
+
